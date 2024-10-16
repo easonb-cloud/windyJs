@@ -13,6 +13,15 @@ https://api.windyapp.co/apiV9.php?method=syncUserData&userID=66C569B3-B5EE-46AA-
 
 hostname = %APPEND% api.windyapp.co
 
+
+
+[Script]
+
+windyVIP=type=http-response,pattern=https:\/\/api\.windyapp\.co\/apiV9\.php,requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/egdd.js
+
+[MITM]
+
+hostname = %APPEND% api.windyapp.co
 *******************************/
 var objc = JSON.parse($response.body);
 
