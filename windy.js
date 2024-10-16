@@ -7,7 +7,7 @@
 
 [rewrite_local]
 
-^https:\/\/api\.windyapp\.co\/apiV9\.php url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/sjthly.js
+^https:\/\/api\.windyapp\.co\/apiV9\.php url script-response-body https://raw.githubusercontent.com/easonb-cloud/windyJs/refs/heads/main/windy.js
 
 [mitm] 
 
