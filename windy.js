@@ -14,6 +14,6 @@
 hostname = %APPEND% api.windyapp.co
 
 *******************************/
-var body = $response.body.replace(/isPro":\d/g,'isPro":1')
+var body = 123
 
 $done({ body });
