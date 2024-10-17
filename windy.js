@@ -15,7 +15,9 @@ hostname = %APPEND% api.windyapp.co
 *******************************/
 
 
-var body = $response.body.replace(/isPro":\d+/g,'isPro":1').
-  replace(/becameProTimestamp":\w+/g,'becameProTimestamp":1628431359').
-  replace(/proType":\w+/g,'proType":1')
+var body = $response.body
+  .replace(/isPro":\d+/g, 'isPro":1')
+  .replace(/becameProTimestamp":\w+/g, 'becameProTimestamp":1628431359')
+  .replace(/proType":\w+/g, 'proType":1');
+
 $done({ body });
