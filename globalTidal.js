@@ -1,9 +1,7 @@
 /******************************
 #!name=全球潮汐
 #!desc=全球潮汐
-#!homepage=https://github.com/deezertidal
-#!author=yqc007
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/adguard.png
+
 
 
 [Script]
