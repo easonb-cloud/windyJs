@@ -5,7 +5,7 @@
 
 
 [Script]
-globalTidal=type=http-response,pattern=^https?:\/\/api\.windyapp\.co,requires-body=1,script-path=https://raw.githubusercontent.com/easonb-cloud/windyJs/refs/heads/main/windy.js
+windy=type=http-response,pattern=^https?:\/\/api\.windyapp\.co\/apiV9\.php\?,requires-body=1,script-path=https://raw.githubusercontent.com/easonb-cloud/windyJs/refs/heads/main/windy.js
 
 
 
