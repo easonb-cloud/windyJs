@@ -4,12 +4,12 @@
 
 
 
-[Script]
-globalTidal=type=http-response,pattern=^https?:\/\/g\.catches\.com\/v1\/(user|user\/registerOrLogin),requires-body=1,script-path=https://raw.githubusercontent.com/easonb-cloud/windyJs/refs/heads/main/globalTidal.js
+#[Script]
+
+^https?:\/\/g\.catches\.com\/v1\/(user|user\/registerOrLogin) url script-response-body https://raw.githubusercontent.com/easonb-cloud/windyJs/refs/heads/main/globalTidal.js
 
 
-
-[MITM] 
+#[MITM] 
 hostname = %APPEND% g.catches.com
 
 *******************************/
