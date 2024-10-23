@@ -4,7 +4,7 @@
 
 
 #[rewrite_local]
-^https?:\/\/api\.windyapp\.co\/apiV9\.php(\?method=syncUserData&userID=\w+)? url script-response-body https://raw.githubusercontent.com/easonb-cloud/windyJs/refs/heads/main/windy.js
+^https?:\/\/api\.windyapp\.co\/apiV9\.php\?method=syncUserData&userID=[\w-]+$ url script-response-body https://raw.githubusercontent.com/easonb-cloud/windyJs/refs/heads/main/windy.js
 
 #[mitm]
 
